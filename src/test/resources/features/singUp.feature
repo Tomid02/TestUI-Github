@@ -3,9 +3,9 @@ Feature: Github sign up
   @SignUpOk
   Scenario: Seccessful sign up
     Given the user is on the sing up page of Github
-    When the user enters email "tomidiaz227@gmail.com" valid and clicks continue
-    And the user enters password "example123" valid and clicks continue
-    And the user enters username "UsernameValidTest24" valid and clicks continue
+    When the user enters a valid email "example@gmail.com" and clicks continue
+    And the user enters a valid password "example123" and clicks continue
+    And the user enters a valid username "UsernameValidTest24" and clicks continue
     And the user clicks sign up button
 
   @SignUpEmailInvalid

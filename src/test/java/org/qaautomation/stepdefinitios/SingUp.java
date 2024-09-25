@@ -56,7 +56,7 @@ public class SingUp {
         signUpPage.waitAndClickPasswordBtn(10);
     }
 
-    @And("the user enters valid username {string} and clicks continue")
+    @And("the user enters a valid username {string} and clicks continue")
     public void entersUsernameValid(String username){
         signUpPage.enterUsername(username);
         signUpPage.waitAndClickUserBtn(10);
